@@ -27,9 +27,6 @@ h1 {
     font-size: 45px !important;
 }
 
-body {
-    overflow-x: hidden;
-}
 
 .butn {
     background-color: #903690;
@@ -488,6 +485,7 @@ section.sec8 .details .range p span {
 
 .sec9 img {
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .sec9 p {
