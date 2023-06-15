@@ -33,7 +33,7 @@
         /* display: block; */
     }
     section.about .image:after {
-        left: 15%;
+        left: 10%;
     }
     section.about h4 {
         font-size: 13px;
