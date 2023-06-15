@@ -64,6 +64,9 @@
         left: -3%;
         width: 30px;
     }
+    .cards p {
+        font-size: 13px;
+    }
     section.sec6 .flow {
         padding: 50px 20px;
     }
