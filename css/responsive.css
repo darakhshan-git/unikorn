@@ -1,7 +1,138 @@
 /*********************************  Responsive Media ***************************************/
-@media (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    h1 {
+        font-size: 25px !important;
+    }
+    .homeBan .homeText h1{
+        line-height: unset;
+    }
+    .homeBan .logo h2 {
+        font-size: 25px;
+    }
 
-   
+    .homeBan .logo .ques p {
+        font-size: 13px;
+    }
 
+    .homeBan .logo .ques h6 {
+        font-size: 15px;
+    }
 
+    .homeBan .homeText {
+        padding: 50px 0;
+    }
+    .homeBan .homeText .parah {
+        padding: 0;
+    }
+    section.logo img{
+        height: auto;
+    }
+    section.about .image img {
+        width: 100%;
+        margin: auto;
+        /* display: block; */
+    }
+    section.about .image:after {
+        left: 24.5%;
+    }
+    section.about h4 {
+        font-size: 13px;
+    }
+    section.sec2 .image img {
+        width: 100%;
+    }
+    .out.butn {
+        width: 100%;
+    }
+    p.btnparah{
+        width: 100%;
+    }
+    section.sec3 .item {
+        padding: 20px;
+    }
+    section.sec3 .item i {
+        width: 150px;
+        height: 40px;
+    }
+    section.sec6 .flow {
+        padding: 50px 20px;
+    }
+    section.sec6 .diagram {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    section.sec6 .flow .icon {
+        line-height: unset;
+        width: 100%;
+        height: 100%;
+    }
+    section.sec6 .flow .icon svg {
+        padding: 10px;
+    }
+    section.sec6 .flow .icon:after {
+        height: 190px;
+    }
+    section.sec6 .flow .icon:before {
+        left: 32%;
+        top: 254%;
+    }
+    section.sec6 .flow .text p{
+        font-size: 13px;
+    }
+    section.sec7 .image img {
+        width: 100%;
+    }
+    section.sec8 .image .img1 {
+        width: 50%;
+    }
+    section.sec8 .image .img2 {
+        width: 50%;
+    }
+    section.sec8 .details {
+        width: 95%;
+    }
+    section.sec8 .details .range {
+        padding: 20px 0;
+    }
+    section.sec8 .details .range h4 {
+        padding: 0 20px 20px;
+        font-size: 17px;
+    }
+    section.sec8 .details .range p {
+        padding: 0 20px;
+        font-size: 12px;
+    }
+    section.sec8 .details .range p span {
+        font-size: 11px;
+    }
+
+    section.sec8 .details .price {
+        padding: 20px;
+    }
+    section.sec8 .details .price p{
+        font-size: 13px;
+    }
+    section.sec8 .details .price h6{
+        width: 100%;
+    }
+    #testi-demo .owl-nav{
+        display: block !important;
+    }
+    .guarantee img {
+        width: 100%;
+    }
+    .sec9 img {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .sec9 ul li i {
+        width: 150px;
+        height: 40px;
+    }
 }
+
+
+
+/* media query tab screen*/
+@media screen and (min-width: 481px) and (max-width: 1050px) {}
