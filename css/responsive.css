@@ -59,6 +59,9 @@
         width: 150px;
         height: 40px;
     }
+    .cards{
+        padding: 30px;
+    }
     .cards svg {
         position: absolute;
         left: -3%;
