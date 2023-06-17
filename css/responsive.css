@@ -3,6 +3,12 @@
     h1 {
         font-size: 25px !important;
     }
+    .homeBan .logo i {
+        width: 35px;
+        height: 35px;
+        line-height: 34px;
+        font-size: 13px;
+    }
     .homeBan .homeText h1{
         line-height: unset;
     }
