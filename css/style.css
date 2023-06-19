@@ -593,12 +593,17 @@ section.footer .copy {
     text-align: center;
     padding-bottom: 30px;
 }
-
-
+p.policy {
+    text-align: center;
+    color: #903690;
+}
+p.policy a{
+    color: #903690;
+}
 .privacy{
     padding: 50px 0;
 }
-.privacy p{
+.privacy .parah{
     padding: 20px 0;
 }
 .privacy h3 {
@@ -610,7 +615,8 @@ section.footer .copy {
 .privacy h4{
     font-size: 20px;
     font-weight: 600;
+    padding: 15px 0 10px;
 }
 .privacy ul li{
-    padding: 10px 0;
+    padding: 5px 0;
 }
