@@ -27,6 +27,9 @@
     .homeBan .homeText {
         padding: 50px 0;
     }
+    .homeBan .homeText .butn {
+        width: 100%;
+    }
     .homeBan .homeText .parah {
         padding: 0;
     }
@@ -67,6 +70,7 @@
     }
     .cards{
         padding: 30px;
+        width: 100%;
     }
     .cards svg {
         position: absolute;
@@ -142,6 +146,9 @@
         display: block !important;
     }
     .guarantee img {
+        width: 100%;
+    }
+    .guarantee .content{
         width: 100%;
     }
     .sec9 img {
