@@ -98,7 +98,10 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
-
+.homeBan .logo img{
+    width: 100px;
+    height: 90px;
+}
 .homeBan .logo i {
     background: #903690;
     width: 40px;
@@ -171,12 +174,16 @@ section.logo {
     padding: 30px 0;
 }
 
-section.logo img {
+section.logo .imgblock img {
     width: 100%;
     height: 50px;
 }
 
-
+section.logo .imgblock {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 30px;
+}
 section.about .space {
     padding: 30px 0;
 }
@@ -249,6 +256,7 @@ section.sec3 .item {
 }
 section.sec3 .item p{
     margin: 0;
+    color: #797a77;
 }
 section.sec3 .item span {
     display: flex;
@@ -304,7 +312,7 @@ section.sec3 .item p span {
 }
 .cards .author p {
     color: #797a77;
-    font-size: 13px;
+    font-size: 14px;
 }
 .cards .author h6 {
     color: #903690;
@@ -413,12 +421,14 @@ section.sec8 .details {
     transform: translate(0px, -40px);
     display: flex;
     justify-content: space-between;
+    border-radius: 50px;
 }
 section.sec8 .details h5{
     text-transform: uppercase;
     color: #903690;
     font-size: 18px;
     font-weight: 600;
+    margin: 0;
 }
 section.sec8 .details .range {
     width: 55%;
@@ -512,7 +522,6 @@ section.sec8 .details .range p span {
 }
 
 .sec9 img {
-    margin-bottom: 30px;
     width: 100%;
 }
 
@@ -591,11 +600,12 @@ section.footer h2 {
 
 section.footer .copy {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 p.policy {
     text-align: center;
     color: #903690;
+    margin: 0;
 }
 p.policy a{
     color: #903690;

@@ -55,7 +55,7 @@
         width: 100%;
     }
     .out.butn {
-        width: 100%;
+        width: 85% !important;
         font-size: 15px;
     }
     p.btnparah{
@@ -111,12 +111,19 @@
     }
     section.sec8 .image .img1 {
         width: 50%;
+        height: 150px;
     }
     section.sec8 .image .img2 {
-        width: 50%;
+        width: 50% !important;
+        height: 150px;
     }
     section.sec8 .details {
         width: 95%;
+        padding: 15px 50px;
+        transform: translate(0px, -25px);
+    }
+    section.sec8 .details h5 {
+        font-size: 15px;
     }
     section.sec8 .details .range {
         padding: 20px 0;
