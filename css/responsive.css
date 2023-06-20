@@ -3,6 +3,9 @@
     h1 {
         font-size: 25px !important;
     }
+    .homeBan .logo img{
+        height: 70px;
+    }
     .homeBan .logo i {
         width: 35px;
         height: 35px;
@@ -76,6 +79,9 @@
     section.sec3 .item i {
         width: 150px;
         height: 40px;
+    }
+    section.sec3 .item p{
+        font-size: 14px;
     }
     .cards{
         padding: 30px;
