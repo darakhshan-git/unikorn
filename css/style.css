@@ -93,7 +93,9 @@ h1 {
     left: 0%;
     z-index: -1;
 }
-
+section.phnlogo {
+    display: none;
+}
 .homeBan .logo {
     display: flex;
     justify-content: space-between;

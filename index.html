@@ -65,11 +65,35 @@
   <section class="logo">
     <div class="container-fluid">
       <div class="imgblock">
-          <img src="images/legends roofing.png" style="height: 60px;"/>
+        <img src="images/legends roofing.png" style="height: 60px;" />
+        <img src="images/socal green.png" />
+        <img src="images/logo3.png" style="filter: contrast(0);" />
+        <img src="images/logo4.png" />
+        <img src="images/logo1.png" />
+      </div>
+    </div>
+  </section>
+
+
+  <section class="phnlogo">
+    <div class="container-fluid">
+      <div id="logo-demo" class="owl-carousel" style="display: block;">
+        <div class="item">
+          <img src="images/legends roofing.png" />
+        </div>
+        <div class="item">
           <img src="images/socal green.png" />
-          <img src="images/logo3.png" style="    filter: contrast(0);"/>
+        </div>
+        <div class="item">
+          <img src="images/logo3.png" style="filter: contrast(0);"  />
+        </div>
+        <div class="item">
           <img src="images/logo4.png" />
+        </div>
+        <div class="item">
           <img src="images/logo1.png" />
+        </div>
+
       </div>
     </div>
   </section>
@@ -250,7 +274,7 @@
         </svg>
       </div>
       <h1 class="mainTitle">Here how are clients are getting 3x leads from their brand new website</h1>
-      
+
       <div class="cards">
         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 8 8">
           <path fill="#903690" d="M3 1L0 4v3h3V1zm5 0L5 4v3h3V1z" />
@@ -468,12 +492,12 @@
 
     </div>
 
-  
+
     <div class="container-fluid">
       <div class="imageBlock">
         <div class="image">
           <img src="images/before1.png" class="img1" />
-          <img src="images/aftter1.png" class="img2" style="    width: 45%;"/>
+          <img src="images/aftter1.png" class="img2" style="    width: 45%;" />
         </div>
         <div class="details">
           <h5>Before</h5>
@@ -490,8 +514,8 @@
             </div> -->
         </div>
       </div>
-  
-  
+
+
       <div class="imageBlock">
         <div class="image">
           <img src="images/before2.png" class="img1" />
@@ -502,7 +526,7 @@
           <h5>after</h5>
         </div>
       </div>
-  
+
       <div class="imageBlock">
         <div class="image">
           <img src="images/before3.png" class="img1" />
@@ -703,7 +727,7 @@
 
 
   <!-- testimonial-->
-  <script>
+  <!-- <script>
     $("#testi-demo").owlCarousel({
       loop: true,
       margin: 20,
@@ -727,6 +751,30 @@
           nav: true,
           loop: true
         }
+      }
+    })
+  </script> -->
+
+  <script>
+    $("#logo-demo").owlCarousel({
+      loop: true,
+      margin: 20,
+      items: 2,
+      nav: false,
+      // navText: ["<i class='fa-solid fa-angle-left'></i>", "<i class='fa-solid fa-angle-right'></i>"],
+      responsiveClass: true,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 2,
+          nav: false
+        },
+        600: {
+          items: 2,
+          nav: false
+        },
       }
     })
   </script>
