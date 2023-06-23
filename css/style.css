@@ -14,7 +14,7 @@
     box-sizing: border-box;
 }
 body{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     font-weight: 400;
     font-family: Inter,sans-serif;
 }
@@ -119,9 +119,10 @@ h1 {
 .allspace {
     padding: 50px 0;
 }
-
+.sticky{
+    padding: 20px 0;
+}
 .homeBan {
-    padding: 30px 0;
     position: relative;
     z-index: 1;
     background-position: 50% 50% !important;
@@ -143,6 +144,7 @@ section.phnlogo {
 .homeBan .logo {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .homeBan .logo img{
     width: 100px;
@@ -247,6 +249,7 @@ section.about p {
 }
 section.about p span {
     background: #903690d1;
+    color: #fff;
 }
 section.about h4 {
     text-align: center;
@@ -335,6 +338,8 @@ section.sec3 .item p span {
 
 .author img {
     width: 40px !important;
+    height: 40px;
+    border-radius: 50%;
 }
 
 .cards .author {

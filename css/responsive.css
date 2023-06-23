@@ -31,9 +31,11 @@
     }
 
     .homeBan .logo h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
-
+    .homeBan .logo .ques>div {
+        display: none;
+    }
     .homeBan .logo .ques p {
         font-size: 13px;
     }
@@ -48,7 +50,7 @@
 
     .homeBan .homeText .butn {
         width: 100% !important;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .homeBan .homeText .parah {
@@ -118,7 +120,15 @@
     .cards p {
         font-size: 13px;
     }
-
+    section.video .vdoCrd{
+        margin-bottom: 30px;
+    }
+    section.video .vdoCrd img {
+        height: 200px !important;
+    }
+    section.sec5{
+        overflow-x: hidden;
+    }
     section.sec6 .flow {
         padding: 50px 20px;
     }
