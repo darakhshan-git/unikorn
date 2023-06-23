@@ -12,7 +12,9 @@
     h1 {
         font-size: 25px !important;
     }
-
+    .homeBan {
+        background-position: 70% 50% !important;
+    }
     .homeBan .logo img {
         height: 70px;
     }
@@ -45,7 +47,8 @@
     }
 
     .homeBan .homeText .butn {
-        width: 100%;
+        width: 100% !important;
+        font-size: 15px;
     }
 
     .homeBan .homeText .parah {
@@ -67,19 +70,8 @@
         display: none;
     }
 
-    section.about .image {
-        position: relative;
-        border-right: 0px solid #903690;
-    }
-
-    section.about .image img {
-        width: 100%;
-        margin: auto;
-    }
-
-    section.about .image:after {
-        /* left: 11%; */
-        display: none;
+    section.about p {
+        font-size: 1.5rem;
     }
 
     section.about h4 {
@@ -91,7 +83,7 @@
     }
 
     .out.butn {
-        width: 85% !important;
+        width: 100% !important;
         font-size: 15px;
     }
 
