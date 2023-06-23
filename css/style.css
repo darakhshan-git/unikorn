@@ -61,12 +61,10 @@ h1 {
     border: 0;
     border-radius: 10px;
     margin-bottom: 0;
-    font-size: 29px;
     font-weight: 600;
     line-height: 1;
     padding: 30px 10px;
     white-space: normal;
-    color: #fff;
     background-color: #903690;
     display: inline-block;
     -webkit-transition: all .4s ease;
@@ -76,7 +74,10 @@ h1 {
     font-weight: normal;
     text-transform: uppercase;
 }
-
+.butn a{
+    color: #fff;
+    font-size: 29px;
+}
 .butn:hover {
     transform: scale(1.015);
 }

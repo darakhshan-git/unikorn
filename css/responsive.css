@@ -50,9 +50,10 @@
 
     .homeBan .homeText .butn {
         width: 100% !important;
+    }
+    .homeBan .homeText .butn a{
         font-size: 14px;
     }
-
     .homeBan .homeText .parah {
         padding: 0;
     }
@@ -86,9 +87,10 @@
 
     .out.butn {
         width: 100% !important;
+    }
+    .out.butn a{
         font-size: 14px;
     }
-
     p.btnparah {
         width: 100%;
     }
