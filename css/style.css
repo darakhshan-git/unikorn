@@ -75,7 +75,6 @@ h1 {
     font-family: 'Futura LT ExtraBold';
     font-weight: normal;
     text-transform: uppercase;
-    word-spacing: -8.9px;
 }
 
 .butn:hover {
@@ -111,7 +110,7 @@ h1 {
 }
 
 .out.butn {
-    width: 70%;
+    width: 90%;
     margin: 50px auto 0;
     display: block;
 }
@@ -242,8 +241,11 @@ section.about h5 {
 }
 section.about p {
     font-size: 2.2rem;
+    padding-bottom: 20px;
 }
-
+section.about p span {
+    border-bottom: 2px solid #cff128;
+}
 section.about h4 {
     text-align: center;
     font-size: 20px;
@@ -683,7 +685,9 @@ section.video .vdoCrd .TexT .card__inner__bottom a:not(:last-child) {
     border-right: 1px solid #903690;
 }
 
-
+section.formob{
+display: none;
+}
 .viewSite {
 
     padding: 50px 0;
