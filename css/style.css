@@ -162,6 +162,8 @@ section.phnlogo {
     color: #fff;
     font-size: 30px;
     font-weight: bolder;
+    text-transform: uppercase;
+    word-spacing: 1.5px;
 }
 
 .homeBan .logo .ques {
@@ -244,7 +246,7 @@ section.about p {
     padding-bottom: 20px;
 }
 section.about p span {
-    border-bottom: 2px solid #cff128;
+    background: #903690;
 }
 section.about h4 {
     text-align: center;
