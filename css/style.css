@@ -1,6 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.cdnfonts.com/css/futura-lt');
+/* @import url('https://fonts.cdnfonts.com/css/futura-lt'); */
+
+
+@font-face {
+    font-family: Futura LT Condensed,sans-serif !important;
+    src: url(fonts/FuturaLT-CondensedExtraBold.woff);
+}
 
 * {
     margin: 0;
@@ -9,8 +15,8 @@
 }
 body{
     overflow-x: hidden;
-    font-family: Futura LT Condensed,sans-serif !important;
     font-weight: 400;
+    font-family: Inter,sans-serif;
 }
 a {
     text-decoration: none !important;
@@ -36,18 +42,57 @@ p {
 }
 
 h1 {
-    font-size: 45px !important;
+    font-size: 50px !important;
+    /* font-family: Futura LT Condensed,sans-serif !important; */
+    font-family:'Futura LT ExtraBold';font-weight:normal;
+    letter-spacing: -.08em;
 }
 
-
+/* 
 .butn {
     background-color: #903690;
     color: #fff;
     border: #903690;
     padding: 15px 30px;
     font-weight: 600;
+} */
+
+.butn {
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 0;
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 30px 10px;
+    white-space: normal;
+    color: #fff;
+    background-color: #903690;
+    display: inline-block;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    box-shadow: 1px 8px 30px rgba(0,0,0,.03), 1px 4px 10px rgba(0,0,0,.05);
+    font-family: 'Futura LT ExtraBold';
+    font-weight: normal;
+    text-transform: uppercase;
+    word-spacing: -8.9px;
 }
 
+.butn:hover {
+    transform: scale(1.015);
+}
+
+.rating {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.rating a i {
+    color: #fec600;  
+}
+.rating a {
+    color: #000;  font-size: 20px;
+}
 .mainTitle {
     text-align: center;
     text-transform: uppercase;
@@ -66,7 +111,7 @@ h1 {
 }
 
 .out.butn {
-    width: 50%;
+    width: 70%;
     margin: 50px auto 0;
     display: block;
 }
@@ -151,7 +196,6 @@ section.phnlogo {
     font-weight: bold;
     line-height: 55px;
     padding: 15px 0;
-    font-family: Futura LT Condensed,sans-serif !important;
 }
 
 .homeBan .homeText p.caps {
@@ -164,10 +208,11 @@ section.phnlogo {
 .homeBan .homeText .parah {
     color: #fff;
     padding: 0 140px 20px;
+    text-transform: uppercase;
 }
 
 .homeBan .homeText .butn{
-    width: 50%;
+    width: 70%;
     margin: 50px auto 0;
     display: block;
 }
@@ -195,27 +240,8 @@ section.about h5 {
     font-size: 17px;
     padding-bottom: 20px;
 }
-
-section.about .image {
-    position: relative;
-    border-right: 20px solid #903690;
-}
-
-section.about .image img {
-    width: 90%;
-    box-shadow: 0px 19px 33px rgb(111 109 113 / 13%);
-    margin: 0 0 auto auto;
-    display: block;
-}
-
-section.about .image:after {
-    content: "";
-    position: absolute;
-    width: 300px;
-    height: 20px;
-    background: #903690;
-    top: 100%;
-    left: 31%;
+section.about p {
+    font-size: 2.2rem;
 }
 
 section.about h4 {
@@ -392,20 +418,21 @@ section.sec7 p {
 }
 
 section.sec8 .image {
-    display: flex;
+       display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 section.sec8 .image .img1 {
     width: 100%;
     border: 2px solid #000;
-    height: 300px;
+    height: 400px;
     box-shadow: 0px 19px 33px rgb(111 109 113 / 13%);
 }
 
 section.sec8 .image .img2 {
-    width: 50%;
+    width: 100%;
     border: 2px solid #000;
-    height: 300px;
+    height: 400px;
     box-shadow: 0px 19px 33px rgb(111 109 113 / 13%);
 }
 
@@ -589,6 +616,96 @@ section.sec8 .details .range p span {
     width: 100%;
 }
 
+
+section.video{
+    padding: 50px 0;
+}
+section.video .vdoCrd {
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+
+section.video .vdoCrd h3 {
+    text-transform: uppercase;
+    font-size: 23px;
+    letter-spacing: -.08em;
+    font-family: 'Futura LT ExtraBold';
+    padding-bottom: 20px;
+}
+section.video .vdoCrd .TexT {
+    padding: 20px;
+}
+section.video .vdoCrd .TexT ul{
+    padding: 0;
+}
+section.video .vdoCrd .TexT ul li{
+    list-style: none;
+    padding-bottom: 15px;
+}
+section.video .vdoCrd .TexT i {
+    width: 25px;
+    height: 25px;
+    background: #903690;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 26px;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-right: 5px;
+}
+section.video .vdoCrd .TexT button {
+    padding: 10px 50px;
+    border: 2px solid #000;
+    background: unset;
+    margin: 0 auto;
+    display: block;
+    border-radius: 7px;
+    transition: ease .3s;
+}
+section.video .vdoCrd .TexT button:hover{
+    background-color: #000;
+    color: #fff;
+}
+section.video .vdoCrd .TexT .card__inner__bottom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0.75rem;
+}
+section.video .vdoCrd .TexT .card__inner__bottom a {
+    font-size: .875em;
+    padding: 0.125rem 1rem;
+    transition: ease .3s;
+    color: #903690;
+}
+section.video .vdoCrd .TexT .card__inner__bottom a:not(:last-child) {
+    border-right: 1px solid #903690;
+}
+
+
+.viewSite {
+
+    padding: 50px 0;
+}
+.viewSite img{
+    width: 100%;
+}
+.viewSite h1{
+    color: #fff;
+    text-align: center;
+}
+.viewSite button{
+    margin: 0 auto;
+    display: block;
+    padding: 15px 60px;
+    border: #fff;
+    background: #fff;
+    color: #000;
+    font-weight: 500;
+    border-radius: 6px;
+}
+/* 
 section.footer {
     padding-bottom: 50px;
 }
@@ -603,7 +720,7 @@ section.footer h2 {
 section.footer .copy {
     text-align: center;
     padding-bottom: 20px;
-}
+} */
 p.policy {
     text-align: center;
     color: #903690;
